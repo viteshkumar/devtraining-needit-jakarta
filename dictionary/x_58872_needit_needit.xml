@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Needit" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="legal1" sequence="0" value="legal 2"/>
+                <element label="legal2" sequence="1" value="legal2"/>
+                <element label="legal3" sequence="2" value="legal 3 3"/>
+            </choice>
+        </element>
+        <element label="When needed" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+    </element>
+</database>
